@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <link rel="stylesheet" href="assets/welcome.css">
+</head>
+
+<body>
+    <br><br>
+    <h1>OLA CAR BOOKING</h1>
+    <br><br>
+    <h3>Fetch details of:</h3><br>
+    <form action="/passenger" method="POST">
+        <input type="text" name="username" class="input-field" placeholder="Name" /><br><br>
+        <input type="submit" class="btn" value="FETCH" >
+    </form>
+    <br><br>
+    <h3>Passenger travelling from Vidyanagar to Airport:</h3><br>
+    <form action="/display" method="POST">
+        <input type="submit" class="btn" value="FETCH" >
+    </form>
+    <br><br>
+    <h3>Update distance:</h3><br>
+    <form action="/update" method="POST">
+        <input type="submit" class="btn" value="UPDATE" >
+    </form>
+
+</body>
+
+</html>
